@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable-no">
+
+        <!--Style sheet -->
+        <link rel="stylesheet" href=""/>
+
+        <!--This is title of web page-->
+        <title>Health Blog</title>
+
+        <!--fabicon-->
+        <link rel="shortcut icon" href="\fav1.jpg"/>
+
+        <!--poppins--------------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <Style>
+            /**Basic Css*/
+            *{
+                margin: 0px;
+                padding: 0px;
+                font-family: poppins;
+                font-size: 12px;
+                box-sizing: border-box;
+            }
+            a{
+                text-decoration: none;
+            }
+            ul{
+                list-style-type: none;
+                
+            }
+            body{
+                margin: 0px;
+                padding: 0px;
+                font-family: 'Poppins';
+            }
+
+            /** Blog Css*/
+            #healthBlog{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+                padding:45px;
+                border-bottom: 1px solid rgba(0,0,0,0.05);
+
+            }
+            .blog-heading{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+            }
+            .blog-heading span{
+                color:orange;
+            }
+            .blog-heading h3{
+                font-size: 24px;
+                color:black;
+                font-weight: 600;
+            }
+            .blog-container{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                margin:20px 0px;
+                flex-wrap:wrap;
+            }
+            .blog-box{
+                width:350px;
+                background-color:#ffffff;
+                border:1px solid #ececec;
+                margin:20px;
+            }
+            .blog img{
+                width:100%;
+                height:auto;
+            }
+            .blog-img img{
+                width:100%;
+                height:100%;
+                object-fit: cover;
+                object-position:center;
+            }
+            .blog-text{
+                padding:25px;
+                display:flex;
+                flex-direction:column;
+            }
+
+           .blog-text span{
+                color:orange;
+                font-size:1rem;
+            }
+            .blog-text .blog-title{
+                font-size:1.5rem;
+                font-weight: 600;
+                color:#272727;
+            }
+            .blog-text .blog-title:hover{
+                color:#f33c3c;
+                transition:all ease 0.3s;
+            }
+            .blog-text p{
+                color:#9b9b9b;
+                font-size:1rem;
+                display:-Webkit-box;
+                -webkit-line-clamp:3;
+                -webkit-box-orientation:vertical;
+                overflow:hidden;
+                text-overflow:ellipsize;
+                margin:20px 0px;
+            }
+            .blog-text a{
+                color:#0f0f0f;
+            }
+            .blog-text a:hover{
+                color:orange;
+                transition:all ease 0.3s;
+            }
+            @media(max-width:1250px){
+                .blog-box{
+                    width:300px;
+                }
+            }
+            @media(max-width:1100px){
+                .blog-box{
+                    width:70%;
+                }
+            }
+            @media(max-width:550px){
+               .blog-box{
+                margin:20px 10px;
+                width:100%;
+               }
+            }
+            #blog{
+                padding:20px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <!--Blog Section-->
+        <Section id="healthBlog">
+
+            <!--heading-->
+            <div class="blog-heading">
+                <span>My recent post on health</span>
+                <h3>Health Blog</h3>
+            </div>
+
+            <!--Blog Container-->
+            <div class="blog-container">
+
+                <!--Container Number-1-->
+                <div class="blog-box">
+
+                    <!--image-->
+                    <div class="blog-img">
+                        <img src="/h1.jpg" alt="Blog">
+                    </div>
+                    <!--text-->
+                    <div class="blog-text">
+                        <span>19 Jan 2023 web blog</span>
+                        <a href="#" class="blog-title">Wake up at moring as soon as posssible and start your day with one glass of water.</a>
+                        <p>Wakeup and walk and run early in the morning and do exercise at leat 30 minutes everyday and drink fresh fruit juice and go to bed early and keep away from mobile</p>
+                        <a href="#">Read more</a>
+                </div>
+            </div>
+
+             <!--Container Number-2-->
+             <div class="blog-box">
+
+                <!--image-->
+                <div class="blog-img">
+                    <img src="/h2.jpg" alt="Blog">
+                </div>
+                <!--text-->
+                <div class="blog-text">
+                    <span>19 Jan 2023 web blog</span>
+                    <a href="#" class="blog-title">Wake up at moring as soon as posssible and start your day with one glass of water.</a>
+                    <p>Wakeup and walk and run early in the morning and do exercise at leat 30 minutes everyday and drink fresh fruit juice and go to bed early and keep away from mobile</p>
+                    <a href="#">Read more</a>
+            </div>
+        </div>
+
+         <!--Container Number-3-->
+         <div class="blog-box">
+
+            <!--image-->
+            <div class="blog-img">
+                <img src="/h3.jpg" alt="Blog">
+            </div>
+            <!--text-->
+            <div class="blog-text">
+                <span>19 Jan 2023 web blog</span>
+                <a href="#" class="blog-title">Wake up at moring as soon as posssible and start your day with one glass of water.</a>
+                <p>Wakeup and walk and run early in the morning and do exercise at leat 30 minutes everyday and drink fresh fruit juice and go to bed early and keep away from mobile</p>
+                <a href="#">Read more</a>
+        </div>
+    </div>
+
+
+        </section>
+
+    </body>
+</html>
